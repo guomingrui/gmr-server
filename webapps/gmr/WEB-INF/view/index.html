@@ -1,0 +1,170 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>郭铭睿~个人博客</title>
+<link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="static/css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="郭铭睿" />
+<meta name="keywords" content="个人博客" />
+<meta name="keywords" content="主页" />
+<script type="application/x-javascript">
+	
+	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
+</script>
+<!--webfonts-->
+<link
+	href='http://fonts.googleapis.com/css?family=Oswald:100,400,300,700'
+	rel='stylesheet' type='text/css'>
+<link
+	href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,300italic,400italic,600italic'
+	rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<script
+	src="static/js/jquery.min.js"></script>
+<!--end slider -->
+<!--script-->
+<script type="text/javascript" src="static/js/move-top.js"></script>
+<script type="text/javascript" src="static/js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event) {
+			event.preventDefault();
+			$('html,body').animate({
+				scrollTop : $(this.hash).offset().top
+			}, 900);
+		});
+	});
+</script>
+<!---->
+
+</head>
+<body>
+	<!--strat-banner-->
+	<div class="banner">
+		<div class="header">
+			<div class="container">
+				<div class="logo">
+					<a href="index"> <img src="static/images/logo.png"
+						title="soup" /></a>
+				</div>
+				<!--start-top-nav-->
+				<div class="top-menu">
+					<span class="menu"> </span>
+					<ul>
+						<li class="bignav active" targetContent="mainPage"><a>主页</a></li>
+						<li class="bignav" targetContent="blog"><a>博客</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
+
+				<div class="clearfix"></div>
+
+			</div>
+		</div>
+		<div class="container">
+			<div class="banner-head">
+				<h1>GMR BLOG</h1>
+				<h2>郭铭睿的个人博客</h2>
+			</div>
+			<div class="banner-links mainPage">
+				<ul>
+					<li class="smallnav active" targetContent="content"><a>个人介绍</a></li>
+					<li class="smallnav" targetContent="contact"><a>留言</a></li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!---//End-banner-->
+	<div class="mainPage">
+		<div class="content">
+			<div class="container">
+				<div class="content-grids">
+					<div class="col-md-8 content-main">
+						<div class="content-grid">
+							<div class="content-grid-head">
+								<h3>欢迎来到睿的个人主页</h3>
+								<div class="clearfix"></div>
+							</div>
+							<div class="content-grid-info">
+								<h3>
+									<a >个人介绍</a>
+								</h3>
+								<p style="text-indent: 2em">
+									各位，我就是这页面的老大--郭铭睿。叫我博士，啊睿，铭睿，睿神，吃瓜等等等，什么都可以吧，不是特别衰的称呼都没啥关系。我是学java后台的，出于对技术的热情，我建了这个个人博客主页。事先声明，这网页前端样式是我套模版的，只是改了部分布局和图片，可别以为是我自己弄出的样式。不过，这主页的后台是我自己写的。包括后台自己使用的web框架，可没有使用sping,springmvc和hibernate等框架，里面使用的框架可都是我一行一行敲出来的，简略版三大框架。包括http服务器，也是自己用java代码一行一行敲出来的，可没有用tomcat等服务器。虽然都没有正版的框架和服务器这么强大，但也着实花费了我不小的功夫，大约三四百个小时吧。</p>
+								<p style="text-indent: 2em">我目前刚刚就读大三吧，14年入大学，学校是广东省内一所普通一本工科院校。入了大学才知道科技挺发达的，总想见识见识。对技术这玩意，我觉得首先不能发虚，得相信自己能攻破，那种攻破后豁然开朗的舒心简直无法言喻，热血啊。欢迎来访，留言啊什么的欢迎。</p>
+								<img src="static/images/c1.jpg" alt="" /> <a
+									class="bttn visitReport">来访报道</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 content-main-right">
+
+						<div class="categories">
+							<h3>最近发表博客</h3>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="contact" style="display: none">
+			<div class="container">
+				<div class="contact-head">
+					<h3>留言</h3>
+					<form class="leaveMessage" onclick="return false;">
+						<div class="col-md-6 contact-left">
+							<input type="text" name="name" placeholder="姓名" /> <input
+								type="text" name="email" placeholder="邮箱" /> <input type="text"
+								name="qq" placeholder="联系QQ" />
+						</div>
+						<div class="col-md-6 contact-right">
+							<textarea name="message" placeholder="留言信息"></textarea>
+							<input type="submit" value="留言" />
+						</div>
+						<div class="clearfix"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 博客 -->
+	<div class="blog" style="display: none">
+		<div class="terms">
+			<div class="container">
+				<div class="terms-sec-head">
+					<h3>GMR~博文</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--fotter-->
+	<div class="fotter">
+		<div class="container">
+			<div>
+				<p style="text-align: center;">欢迎来到睿的博客</p>
+			</div>
+		</div>
+	</div>
+
+	<!---->
+	<script src="static/js/index.js">
+		
+	</script>
+	<a href="#to-top" id="toTop" style="display: block;"> <span
+		id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>
